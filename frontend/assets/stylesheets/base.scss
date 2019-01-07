@@ -1,0 +1,1141 @@
+.sidebar {
+  width: 25%;
+  height: 25vh; // experiment with this value, try changing to 110vh
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+}
+
+
+.visible.menu.transition {
+  border: 0px;
+}
+
+
+.link {
+  color: #000000;
+}
+
+.link:hover {
+  color: #000000;
+}
+
+// BACKGROUND
+.BG-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+// Home
+.Rectangle-home {
+  width: 100%;
+  // height: 100vh;
+  // background-color: rgba(255, 255, 255, 0.7);
+}
+
+.Rectangle-home-test {
+  width: 1920px;
+  height: 1028px;
+  border: solid 1px #979797;
+}
+
+
+.Header {
+  display: flex;
+  // position: fixed;
+  // width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  // background-color: #f7ea73;
+  // border: solid 1px rgba(255, 255, 255, 0.49);
+  z-index: 2;
+}
+
+
+.header-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 12px;
+  margin-right: 12px;
+  object-fit: contain;
+}
+
+.STEEM-FIT {
+  width: 104px;
+  height: 28px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.STEEM-FIT .text-style-1 {
+  font-weight: 300;
+}
+
+.FILTER {
+  position: relative;
+  top: 30px;
+  height: 57px;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  z-index : 1;
+}
+
+.Rectangle-filter {
+  height: 24px;
+  background-color: #f7ea73;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-between;; // center
+}
+
+.letter-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Photo {
+  width: 320px;
+  height: 320px;
+  border-radius: 5px;
+}
+
+.Rectangle-tag {
+  width: 91px;
+  height: 18px;
+  background-color: #f7ea73;
+}
+
+caption {
+  width: 88px;
+  height: 11px;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: 4px;
+  color: #000000;
+}
+
+title {
+  width: 300px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.price {
+  width: 43px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.dropdown1 {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.dropdown2 {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.Rectangle-dropdown {
+  width: 72px;
+  height: 72px;
+  border: solid 1px #000000;
+}
+
+.arrow_down {
+  position: relative;
+  top: 20px;
+  left: 28px;
+
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.Rectangle-arrow {
+  width: 72px;
+  height: 72px;
+  border: solid 1px #000000;
+
+  margin-bottom: 50px;
+}
+
+// // Login
+// .Rectangle-login-bg {
+//   width: 490px;
+//   height: 370px;
+//   background-color: #000000;
+// }
+//
+
+.Rectangle-login {
+  width: 480px;
+  height: 360px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+
+.x-login {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.WELCOME {
+  height: 38px;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  position: relative;
+  bottom: 15px;
+}
+
+.welcome-rectangle {
+  width: 139.7px;
+  height: 16px;
+  background-color: #f7ea73;
+  position: relative;
+  top: 15px;
+}
+
+.how-to-login {
+  height: 24px;
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Login-with-Steemit {
+  height: 19px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.signup {
+  height: 24px;
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+// // Menu
+// .Rectangle-menu {
+//   width: 1920px;
+//   height: 1024px;
+//   background-color: rgba(0, 0, 0, 0.9);
+// }
+//
+.x-menu {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.HOME {
+  width: 98px;
+  height: 47px;
+  background-image: linear-gradient(291deg, #e4ff87, #f7ea73);
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ABOUT {
+  width: 111px;
+  height: 47px;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.CONTACT {
+  width: 158px;
+  height: 47px;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Line {
+  width: 58px;
+  height: 1px;
+  border: solid 1px #ffffff;
+}
+
+.LOGIN {
+  width: 101px;
+  height: 47px;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.JOIN {
+  width: 78px;
+  height: 47px;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+// About
+.ABOUT-STEEMFIT {
+  width: 571.7px;
+  height: 80px;
+  font-family: "Roboto";
+  font-size: 70px; // 80px
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  z-index: 1;
+}
+
+
+.ABOUT-STEEMFIT .text-style-1 {
+  font-weight: bold;
+}
+
+.Rectangle-about {
+  position: relative;
+  top: 85px;
+  width: 571.7px;
+  height: 48px;
+  background-color: #f7ea73;
+}
+
+.Our-mission-is-what {
+  width: 1010px; // 1198.4px
+  height: 64px;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.About-box {
+  height: 80vh;
+  // border: solid 1px;
+}
+
+.About-content {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.About-pic {
+  width: 280px;
+  height: 400px;
+  background-color: #f7ea73;
+}
+
+.About-sub {
+  font-family: "Roboto";
+  font-size: 80px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+
+
+
+// Contact
+.ANY-QUESTION {
+  width: 573px;
+  height: 94px;
+  font-family: "Roboto";
+  font-size: 70px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  z-index: 1;
+}
+
+.contact-context {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+
+// Editor
+.editor-change {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.editor-head {
+  height: 29px;
+  font-family: "Noto Sans KR";
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.editor-head-rectangle {
+  width: 246px;
+  height: 12px;
+  background-color: #f7ea73;
+  position: relative;
+  top: 25px;
+  z-index: -1;
+
+}
+
+.editor {
+  height: 200px;
+  width: 800px;
+  overflow: auto;
+}
+
+.demo-toolbar {
+  position: sticky;
+  top: 0;
+}
+
+.demo-editor {
+  height: 500px;
+}
+
+.editor-editor {
+  border: 0px;
+  width: 800px;
+}
+
+.preview {
+  width: 400px;
+  border: 0px;
+}
+
+.preview-comment {
+  width: 800px;
+  border: 0px;
+}
+.preview-reply {
+  border: 0px;
+}
+
+.comment-submit {
+  width: 48px;
+  height: 20px;
+  border-radius: 24px;
+  border: solid 1px #e6e6e6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.comment-submit-txt {
+  font-family: "Noto Sans KR";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+// Post List
+.post-item {
+  width: 500px;
+  border: solid 1px #f3f3f3;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 32px;
+  padding-bottom: 32px
+}
+
+.post-content-preview {
+  height: 48px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #9e9e9e;
+}
+
+.post-list-author {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+}
+.post-list-category {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+}
+.post-list-category-rectangle {
+  height: 6px;
+  background-image: linear-gradient(275deg, #e4ff87, #f7ea73);
+}
+.post-list-num {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+}
+.Divider-dot {
+  width: 2px;
+  height: 2px;
+  background-color: #d8d8d8;
+}
+.post-list-time {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #9e9e9e;
+}
+
+// Post Detail
+.detail-sticky {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+}
+.detail-category {
+  height: 14px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #ff586d;
+}
+
+.detail-title {
+  font-family: "Noto Sans KR";
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.detail-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px #e6e6e6;
+  border-bottom: solid 1px #e6e6e6;
+  width: 800px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.detail-author-name {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.detail-created {
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9e9e9e;
+}
+
+.detail-follow {
+  font-family: "Noto Sans KR";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.detail-follow-btn {
+  height: 25px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  border: solid 1px #f3f3f3;
+}
+
+.detail-price {
+  height: 24px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+}
+
+.detail-tag-container {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.detail-tag {
+  height: 20px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.detail-tags {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 5px;
+  height: 28px;
+  border-radius: 14px;
+  border: solid 1px #f3f3f3;
+}
+
+.detail-tags-text {
+  height: 20px;
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.detail-body {
+  width: 800px;
+}
+
+.detail-body img {
+  display: block;
+  max-width: 100%;
+}
+
+.detail-comment-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-right: 5px;
+}
+
+.detail-comment-num {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  letter-spacing: normal;
+  color: #9e9e9e;
+  margin-left: 5px;
+}
+
+.comment-body img {
+  display: block;
+  max-width: 100%;
+  max-height: 50vh;
+}
+
+// User Page
+.Nav-hover:hover {
+  color: #d3d3d3;
+}
+
+.Nav-inactive {
+  height: 29px;
+  font-family: "Noto Sans KR";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  z-index: 1;
+}
+
+.Nav-inactive:hover {
+  color: #d3d3d3;
+}
+
+
+.Nav-active {
+  height: 29px;
+  font-family: "Noto Sans KR";
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  z-index: 1;
+}
+
+.Nav-rectangle-active {
+  position: relative;
+  bottom: 11px;
+  height: 10px;
+  background-image: linear-gradient(280deg, #e4ff87, #f7ea73);
+  z-index: -1;
+}
+
+.Nav-rectangle-inactive {
+  position: relative;
+  bottom: 11px;
+  height: 10px;
+  z-index: -1;
+}
+
+// Profile
+.profile-transfer {
+  height: 19px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-videochat {
+  height: 20px;
+  font-family: "Noto Sans KR";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  height: 28px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.profile-follow {
+  width: 73.8px;
+  height: 28px;
+  border-radius: 24px;
+  border: solid 1px #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-follow-text {
+  height: 20px;
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-account {
+  height: 14px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9e9e9e;
+  padding-left: 20px;
+}
+
+.profile-f-text {
+  height: 18px;
+  font-family: "Noto Sans KR";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9e9e9e;
+  display: flex;
+  align-items: center;
+}
+
+.profile-f-num {
+  height: 38px;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+}
+
+// Comment
+.oval {
+  width: 2px;
+  height: 2px;
+  background-color: #d8d8d8;
+}
+
+.comment-text {
+  height: 24px;
+  font-family: "Noto Sans KR";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.comment-author {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-stretch: condensed;
+}
+
+.comment-modal-txt {
+  font-family: "Noto Sans KR";
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.comment-modal-txt:hover {
+  color: #ff3c54;
+}
+
+// Followers & Followings
+.follow-modal-num {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.follow-modal-txt {
+  font-family: "Noto Sans KR";
+  font-weight: 900;
+  font-stretch: normal;
+  color: #000000;
+}
+
+.follow-follow-btn {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  margin: 10px;
+  background-color: #f7ea73;
+}
+
+.follow-followed-btn {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  border: solid 1px #f3f3f3;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.follow-follow-txt {
+  font-family: "Noto Sans KR";
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.follow-name {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+// Transfer
+
+.click-here {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.transfer-txt {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+// Wallet
+.wallet-text {
+  height: 20px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.wallet-number {
+  color: #126dff;
+}
